@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body{
     margin:0;
-    background-image: url(..//img/pxfuel\ \(3\).jpg);
+    background-image: url(..//images/Black\ bg\ ornament.jpg);
     background-position: center;
     width:100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    color: #ddd;
 }
 
 
@@ -215,14 +217,40 @@ ul > li {
     position: relative;
     padding-bottom: 2rem; 
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../images/footer\ image.jpg);
 
 }
+.social-links {
+    padding-bottom: 15px;
+}
 
-.social-parent{
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #66b3e0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+/**.social-parent{
     text-align: center;
     width:50%;
     float:right;
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px;
     }
     
 .social-parent h2{
@@ -235,18 +263,7 @@ text-decoration: underline;
 text-decoration-thickness: 1px;
 font-size: 150%;
 }
-
-.social-networks > li{
-    display: inline-block;
-    text-align: center;
-    padding: 0 5px;
-}
-
-.social-networks i{
-    color: white;
-    font-size: 200%;
-}
-
+**/
 footer{
     padding:0;
     margin:0;

@@ -19,7 +19,11 @@
                 notes: "The booking i would like to make is..."})
         })();
     </script>
-
+<style>
+    body{
+        background-image: none;
+    }
+</style>
 </head>
 
 <body>
@@ -49,7 +53,7 @@
                         </li>
                         
                         <li class="col-xs-6 col-sm-2 ui-menu-color-download menuitem ">
-                            <a href="menu/body.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download " aria-hidden="true "></i><span>Download menu</span></a>
+                            <a href="menu/menu.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download " aria-hidden="true "></i><span>Download menu</span></a>
                         </li>
                     </ul>
                 </div>
@@ -66,7 +70,10 @@
                 <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="bookinginfomation" class="form-control" id="bookinginfomation" placeholder="Booking Infomation" required></textarea>
+                    <input type="number" name="number-of-people" class="form-control" id="numberofpeople" placeholder="Number of people" required/>
+                    <input type="date" name="date" class="form-control" id="date" placeholder="date" required/>
+                    <input type="time" name="time" class="form-control" id="time" placeholder="time" required/>
+                    <textarea rows="5" name="bookinginfomation" class="form-control" id="bookinginfomation" placeholder="Special Requirements for Booking?" required></textarea>
                     <button type="submit" class="btn btn-secondary center-block">Send reservation Request</button>
                 </form>
             </div>
@@ -84,7 +91,7 @@
                 <h5 class="uppercase general-sub ">Download the menu</menu></h5>
                 <p class="inline-block ">
                     Need a printable version of the menu? Download it here.
-                    <a href="menu/body.pdf" target="_blank" class="cv-pdf "><i class="fa fa-download " aria-hidden="true "></i></a>
+                    <a href="menu/menu.pdf" target="_blank" class="body-pdf "><i class="fa fa-download " aria-hidden="true "></i></a>
                 </p>
             </div>
             <div class="col-sm-4 ">
