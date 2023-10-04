@@ -1,5 +1,10 @@
 body{
-    background-color: #040404; 
+    margin:0;
+    background-image: url(..//img/pxfuel\ \(3\).jpg);
+    background-position: center;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -200,7 +205,117 @@ ul > li {
     margin-bottom: 5px;
    
 }
+/* footer */
 
+.site-footer{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 2rem; 
+    display: block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
+
+}
+
+.social-parent{
+    text-align: center;
+    width:50%;
+    float:right;
+    }
+    
+.social-parent h2{
+text-align: center;
+color: #fafafa;
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+text-align: center;
+text-decoration: underline;
+text-decoration-thickness: 1px;
+font-size: 150%;
+}
+
+.social-networks > li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.social-networks i{
+    color: white;
+    font-size: 200%;
+}
+
+footer{
+    padding:0;
+    margin:0;
+ }
+
+ .wrapper{
+    overflow: hidden;
+    padding-top:10px;
+ }
+.left-contact{
+    color: #ddd;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    width:50%;
+    text-transform: uppercase;
+    text-align: center;
+    float:left;
+  
+}
+
+.left-contact + p {
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+#times div {
+    color: #fafafa;
+    width: 8%;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    height:auto;
+    
+}
+
+#times {
+    width:100%;
+    text-align: center;
+
+
+}
+
+#times h1 {
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-size: 150%;
+   
+}
+#times h2 {
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 125%;
+}
+#times h3 {
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#menu {
+    text-align: center;
+}
 /* FORM */
 form{
     width: 50%;  
